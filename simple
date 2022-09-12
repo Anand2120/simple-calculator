@@ -1,0 +1,61 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b,c,d,e,f,g,h,i,j;
+float add,sub,mul,div;
+cout<<"ADDITION";
+cout<<"Enter 1st no.";
+cout<<endl;
+cin>>a;
+cout<<endl;
+cout<<"Enter 2nd no.";
+cout<<endl;
+cin>>b;
+cout<<endl;
+add=a+b;
+cout<<"Addition of 2 no. is ="<<add;
+cout<<"SUBSTRACTION";
+cout<<"Enter 1st no.";
+cout<<endl;
+cin>>c;
+cout<<endl;
+cout<<"Enter 2nd no.";
+cout<<endl;
+cin>>d;
+cout<<endl;
+if(c>d)
+{
+sub=c-d;
+}
+else
+{
+sub=d-c;
+}
+"Subtraction of 2 no. is="<<sub;
+cout<<"DIVISION";
+cout<<"Enter 1st no.";
+cout<<endl;
+cin>>e;
+cout<<endl;
+cout<<"Enter 2nd no.";
+cout<<endl;
+cin>>f;
+cout<<endl;
+div=e/f;
+cout<<"Division of 2 no."<<div;
+cout<<endl;
+cout<<"MULTIPLICATION";
+cout<<"Enter 1st no.";
+cout<<endl;
+cin>>g;
+cout<<endl;
+cout<<"Enter 2nd no."
+cout<<endl;
+cin>>h;
+cout<<endl;
+mul=g*h;
+cout<<"Multiplication of 2 no."<<mul;
+cout<<endl;
+return 0;
+}
